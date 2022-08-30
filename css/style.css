@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 21px;
+    font-family: 'PP Neue Machina';
 }
 
 div{
@@ -52,15 +53,25 @@ button:hover{
 .main-head-a-div{
     display: flex;
     align-items: center;
+    width: 110%;
+}
+
+.p-1{
     width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .p-2{
     display: none;
 }
 
-.main-head-a-div p{
-    margin-right: 3%;
+.main-head-a-div img{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 1%;
 }
 
 /* ---------------------------items------------------- */
@@ -103,7 +114,7 @@ button:hover{
     width: 100%;
     height: 20%;
     display: inline-block;
-    background: url('./images/images/Rectangle\ 49.png') no-repeat;
+    background: url('../images/images/Rectangle\ 49.png') no-repeat;
     background-size: cover;
     text-align: center;
 }
@@ -119,6 +130,10 @@ button:hover{
     margin: -8% 0 0 0;
     z-index: 200;
     font-family: 'PP Neue Machina';
+}
+
+.price{
+    font-weight: 700;
 }
 
 .activities-img-div{
@@ -142,7 +157,6 @@ button:hover{
 
 .quantity p{
     margin: 0 10%;
-    font-weight: 700;
 }
 
 .item-description{
